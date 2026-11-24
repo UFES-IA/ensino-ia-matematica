@@ -1,0 +1,14 @@
+Dados sintéticos da instanciação meteorológica — artigo Kiri-Kerê
+
+Arquivos:
+- dados_meteorologicos_construcao.csv: 16 registros utilizados para ajuste do modelo.
+- dados_meteorologicos_avaliacao.csv: 8 registros reservados para avaliação.
+
+Os dados são inteiramente sintéticos e têm finalidade exclusivamente analítica e pedagógica.
+Não constituem amostra meteorológica real nem sustentam inferências sobre previsão científica de chuva.
+
+Modelo ajustado aos dados de construção:
+R̂ = -23,7185 + 0,4542 H
+
+Limiar usado para a classificação binária:
+r0 = 5 mm
